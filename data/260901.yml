@@ -1,0 +1,61 @@
+about:
+  description: Fastest way to build, submit, and update iOS and Android apps
+  license: MIT
+  homepage: https://docs.expo.dev/eas/
+  head: eebe02e
+  archived: false
+  latestVersion: v23.2.0
+  collectedAt: 2026-09-01T05:23:00Z
+timeline:
+  created: 2020-08-12
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-31
+popularity:
+  star: 1348
+  watcher: 20
+  fork: 232
+  release: 417
+  contributor: 110
+  pullRequest: 538
+  issue: 1385
+language:
+  TypeScript: 8323274
+  Swift: 48842
+  Ruby: 14794
+  Shell: 13657
+  JavaScript: 11211
+  Batchfile: 62
+totalLine: 8411840
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 12
+    mergedPR: 84
+    openPR: 60
+    closedIssue: 1
+    openIssue: 14
+    commit: 110
+  last90d:
+    since: 2026-06-03
+    release: 26
+    mergedPR: 272
+    openPR: 114
+    closedIssue: 18
+    openIssue: 25
+    commit: 342
+  last180d:
+    since: 2026-03-05
+    release: 53
+    mergedPR: 475
+    openPR: 167
+    closedIssue: 47
+    openIssue: 50
+    commit: 590
+  last360d:
+    since: 2025-09-06
+    release: 81
+    mergedPR: 622
+    openPR: 195
+    closedIssue: 76
+    openIssue: 102
+    commit: 810
