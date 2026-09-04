@@ -7,7 +7,7 @@ about:
   head: 24a65ad
   archived: false
   latestVersion: v23.2.0
-  collectedAt: 2026-09-04T19:50:57Z
+  collectedAt: 2026-09-04T20:48:56Z
 timeline:
   created: 2020-08-12
   lastCommit: 2026-09-04
@@ -34,57 +34,130 @@ recent:
     release: 10
     mergedPR: 85
     openPR: 62
-    closedIssue: 1
-    openIssue: 15
+    closedIssue: 2
+    openIssue: 14
     commit: 124
   last60d:
     since: 2026-07-06
     release: 20
     mergedPR: 203
     openPR: 86
-    closedIssue: 9
-    openIssue: 21
+    closedIssue: 10
+    openIssue: 20
     commit: 283
   last90d:
     since: 2026-06-06
     release: 25
     mergedPR: 283
     openPR: 116
-    closedIssue: 18
-    openIssue: 25
+    closedIssue: 19
+    openIssue: 24
     commit: 356
   last180d:
     since: 2026-03-08
     release: 53
     mergedPR: 480
     openPR: 171
-    closedIssue: 47
-    openIssue: 50
+    closedIssue: 48
+    openIssue: 49
     commit: 604
   last360d:
     since: 2025-09-09
     release: 81
     mergedPR: 634
     openPR: 199
-    closedIssue: 75
-    openIssue: 99
+    closedIssue: 76
+    openIssue: 98
     commit: 824
   last720d:
     since: 2024-09-14
     release: 100
     mergedPR: 944
     openPR: 205
-    closedIssue: 206
-    openIssue: 195
+    closedIssue: 207
+    openIssue: 194
     commit: 1344
 total:
   release: 417
   mergedPR: 2349
   openPR: 213
-  closedIssue: 1141
-  openIssue: 245
+  closedIssue: 1142
+  openIssue: 244
   commit: 3528
 ---
+path: /home/runner/.x-repo/github.com/expo/eas-cli
+collectedAt: 2026-09-04T20:49:01Z
+loc:
+  TypeScript:
+    code: 235755
+    comments: 8135
+    blanks: 27577
+    files: 1692
+  Json:
+    code: 110176
+    comments: 0
+    blanks: 9
+    files: 87
+  Swift:
+    code: 1276
+    comments: 1
+    blanks: 119
+    files: 8
+  Yaml:
+    code: 541
+    comments: 1
+    blanks: 26
+    files: 37
+  Ruby:
+    code: 300
+    comments: 22
+    blanks: 96
+    files: 7
+  JavaScript:
+    code: 240
+    comments: 19
+    blanks: 30
+    files: 16
+  Sh:
+    code: 218
+    comments: 31
+    blanks: 55
+    files: 8
+  Bash:
+    code: 129
+    comments: 13
+    blanks: 41
+    files: 8
+  Xml:
+    code: 117
+    comments: 0
+    blanks: 6
+    files: 7
+  Toml:
+    code: 8
+    comments: 0
+    blanks: 1
+    files: 1
+  Batch:
+    code: 4
+    comments: 0
+    blanks: 2
+    files: 2
+  Rakefile:
+    code: 4
+    comments: 1
+    blanks: 3
+    files: 1
+  Markdown:
+    code: 0
+    comments: 6401
+    blanks: 3322
+    files: 32
+total:
+  code: 348985
+  comments: 14668
+  blanks: 31325
+  files: 1906
 ---
 date: "2026-08-24"
 repo:
