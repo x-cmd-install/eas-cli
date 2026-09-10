@@ -12,35 +12,7 @@ Fastest way to build, submit, and update iOS and Android apps
 x install eas-cli
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/expo/eas-cli>
-- **Homepage**: <https://docs.expo.dev/eas/>
-- **License**: MIT
-
-## Release
-
-- **Latest**: `v24.0.0` (2026-09-09)
-- **Last commit**: 2026-09-10
-- **Published**: 2026-09-09T20:11:08Z
-
-## Popularity
-
-- **Stars**: 1,353 · **Forks**: 234 · **Open issues**: 1,388 · **Contributors**: 112
-
-## Totals (cumulative)
-
-- **Releases**: 418 · **Merged PRs**: 2359 · **Open PRs**: 222 · **Closed issues**: 1143 · **Open issues**: 245 · **Commits**: 3541
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 8 | 87 | 69 | 2 | 13 | 117 |
-| 90d | 2026-06-12 | 26 | 278 | 116 | 18 | 25 | 353 |
-| 360d | 2025-09-15 | 79 | 641 | 209 | 75 | 96 | 825 |
-
-## Code size
+## Code insight
 
 Total: **350,921** lines of code across **1840** files in the top 5 languages.
 
@@ -62,13 +34,52 @@ Lowest-scoring checks:
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
+## Source
+
+- **Upstream**: <https://github.com/expo/eas-cli>
+- **Homepage**: <https://docs.expo.dev/eas/>
+- **License**: MIT
+
+## Release
+
+- **Latest**: `v24.0.0` (2026-09-09)
+- **Last commit**: 2026-09-10
+
+## Popularity
+
+- **Stars**: 1,353 · **Forks**: 234 · **Open issues**: 1,388 · **Contributors**: 112
+
+## Totals (cumulative)
+
+- **Releases**: 418 · **Merged PRs**: 2359 · **Open PRs**: 222 · **Closed issues**: 1143 · **Open issues**: 245 · **Commits**: 3541
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 8 | 87 | 69 | 2 | 13 | 117 |
+| last60d | 2026-07-12 | 21 | 185 | 97 | 9 | 20 | 263 |
+| 90d | 2026-06-12 | 26 | 278 | 116 | 18 | 25 | 353 |
+| last180d | 2026-03-14 | 52 | 476 | 173 | 49 | 50 | 598 |
+| 360d | 2025-09-15 | 79 | 641 | 209 | 75 | 96 | 825 |
+| last720d | 2024-09-20 | 100 | 935 | 214 | 206 | 195 | 1340 |
+
+## Distribution status
+
+Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli). **1** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Homebrew | `23.2.0` | ✅ latest |
+| Nix unstable | `20.4.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `eas-cli` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/eas-cli.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/eas-cli.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:57:47Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:25:51Z._
