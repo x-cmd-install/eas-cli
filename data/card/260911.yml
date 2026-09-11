@@ -278,4 +278,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 26 are checked with a SAST tool'
 ---
-{"id":386717125,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOERxXE84XDNXF","tag_name":"v24.1.2","target_commitish":"cc37c1c360bc6d710d016209e00f3fb77ed7ad1d","name":"v24.1.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-11T00:55:13Z","updated_at":"2026-09-11T00:57:18Z","published_at":"2026-09-11T00:57:18Z","assets":[],"body":"v24.1.2\n\n### \ud83d\udc1b Bug fixes\n\n- [eas-cli] Shorten the local egress banner printed by `eas simulator:start` and stop mentioning `eas simulator:egress` in interactive mode, where the client runs in the same terminal. ([#4383](https://github.com/expo/eas-cli/pull/4383) by [@brentvatne](https://github.com/brentvatne))\n"}

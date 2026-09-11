@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/385811304",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/385811304/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/385811304/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.0.0",
-  "id": 385811304,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/386717125",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/386717125/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/386717125/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.1.2",
+  "id": 386717125,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84W_wNo",
-  "tag_name": "v24.0.0",
-  "target_commitish": "5409c03d58c50b80e4ec9d5ca40f2fbdfaba9aa0",
-  "name": "v24.0.0",
+  "node_id": "RE_kwDOERxXE84XDNXF",
+  "tag_name": "v24.1.2",
+  "target_commitish": "cc37c1c360bc6d710d016209e00f3fb77ed7ad1d",
+  "name": "v24.1.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-09T20:07:38Z",
-  "updated_at": "2026-09-09T20:11:08Z",
-  "published_at": "2026-09-09T20:11:08Z",
+  "created_at": "2026-09-11T00:55:13Z",
+  "updated_at": "2026-09-11T00:57:18Z",
+  "published_at": "2026-09-11T00:57:18Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.0.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.0.0",
-  "body": "v24.0.0\n\n### 🛠 Breaking changes\n\n- [eas-cli] Align the `eas observe:*` commands with the renamed Observe GraphQL schema. `--json` output now uses `name`/`value` instead of `metricName`/`metricValue` (metrics) and `name` instead of `eventName` (log events and event-name summaries), and `eas observe:events` now lists user-defined events only — exceptions moved to the new `eas observe:errors`. ([#4338](https://github.com/expo/eas-cli/pull/4338) by [@douglowder](https://github.com/douglowder))\n\n### 🎉 New features\n\n- [build-tools] Add `lcd_width`, `lcd_height`, and `lcd_density` inputs to configure the Android emulator display. ([#4349](https://github.com/expo/eas-cli/pull/4349) by [@krystofwoldrich-agent](https://github.com/krystofwoldrich-agent))\n- [eas-cli] Add `eas channel:protect` and `eas channel:unprotect` to manage EAS Update channel protection, and show protection in channel list and view output. ([#4319](https://github.com/expo/eas-cli/pull/4319) by [@sjkim-expo](https://github.com/sjkim-expo))\n- [eas-cli] Add `eas observe:errors` to display error and exception issue groups (grouped by fingerprint), with `--fingerprint <fingerprint>` to drill into a group's individual occurrences and stack traces. ([#4339](https://github.com/expo/eas-cli/pull/4339) by [@douglowder](https://github.com/douglowder))\n- [eas-cli] Add `eas observe:event` to display a single Observe event (metric, log, or error) by its ID. ([#4252](https://github.com/expo/eas-cli/pull/4252) by [@douglowder](https://github.com/douglowder))\n\n### 🐛 Bug fixes\n\n- [build-tools] Start Argent remote sessions with `bun x` so they work when the `bunx` symlink is missing. ([491b372a](https://github.com/expo/eas-cli/commit/491b372a) by [@krystofwoldrich](https://github.com/krystofwoldrich))\n- [build-tools] Reduce `expo-device-hub` preview resolution from 1280 px to 960 px to match `serve-sim` and lower streaming bandwidth. ([#4326](https://github.com/expo/eas-cli/pull/4326) by [@krystofwoldrich-agent](https://github.com/krystofwoldrich-agent))\n- [build-tools] Install FFmpeg before launching `expo-device-hub` in Android device sessions. ([#4332](https://github.com/expo/eas-cli/pull/4332) by [@krystofwoldrich-agent](https://github.com/krystofwoldrich-agent))\n- [eas-cli] Print the session token in simulator preview links, so they still open once the preview is gated. ([#4312](https://github.com/expo/eas-cli/pull/4312) by [@gwdp](https://github.com/gwdp))\n\n### 🧹 Chores\n\n- [eas-cli] Make ASC API key issuer identifier optional in GraphQL and credentials types. ([#4248](https://github.com/expo/eas-cli/pull/4248) by [@sswrk](https://github.com/sswrk))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.1.2",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.1.2",
+  "body": "v24.1.2\n\n### 🐛 Bug fixes\n\n- [eas-cli] Shorten the local egress banner printed by `eas simulator:start` and stop mentioning `eas simulator:egress` in interactive mode, where the client runs in the same terminal. ([#4383](https://github.com/expo/eas-cli/pull/4383) by [@brentvatne](https://github.com/brentvatne))\n"
 }
