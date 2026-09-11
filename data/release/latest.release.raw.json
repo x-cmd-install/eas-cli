@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/386717125",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/386717125/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/386717125/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.1.2",
-  "id": 386717125,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/387022581",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/387022581/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/387022581/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.3.0",
+  "id": 387022581,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84XDNXF",
-  "tag_name": "v24.1.2",
-  "target_commitish": "cc37c1c360bc6d710d016209e00f3fb77ed7ad1d",
-  "name": "v24.1.2",
+  "node_id": "RE_kwDOERxXE84XEX71",
+  "tag_name": "v24.3.0",
+  "target_commitish": "66cdccb0e7c3ec47054c3f093c25b9799d60ff36",
+  "name": "v24.3.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-11T00:55:13Z",
-  "updated_at": "2026-09-11T00:57:18Z",
-  "published_at": "2026-09-11T00:57:18Z",
+  "created_at": "2026-09-11T12:31:21Z",
+  "updated_at": "2026-09-11T12:34:17Z",
+  "published_at": "2026-09-11T12:34:17Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.1.2",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.1.2",
-  "body": "v24.1.2\n\n### 🐛 Bug fixes\n\n- [eas-cli] Shorten the local egress banner printed by `eas simulator:start` and stop mentioning `eas simulator:egress` in interactive mode, where the client runs in the same terminal. ([#4383](https://github.com/expo/eas-cli/pull/4383) by [@brentvatne](https://github.com/brentvatne))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.3.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.3.0",
+  "body": "v24.3.0\n\n### 🎉 New features\n\n- [eas-build-job] Add a shared protocol for sandbox daemon commands. ([#4346](https://github.com/expo/eas-cli/pull/4346) by [@sjchmiela](https://github.com/sjchmiela))\n"
 }

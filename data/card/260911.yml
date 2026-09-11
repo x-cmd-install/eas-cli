@@ -2,12 +2,12 @@ about:
   description: "Fastest way to build, submit, and update iOS and Android apps"
   license: MIT
   homepage: https://docs.expo.dev/eas/
-  head: e6f02af
+  head: 4aa9522
   archived: false
-  latestVersion: "v24.1.2"
-  latestRelease: "v24.1.2"
+  latestVersion: "v24.3.0"
+  latestRelease: "v24.3.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:57:37Z
+  collectedAt: 2026-09-11T18:56:20Z
 timeline:
   created: 2020-08-12
   lastCommit: 2026-09-11
@@ -17,86 +17,86 @@ timeline:
 popularity:
   star: 1353
   watcher: 20
-  fork: 234
-  release: 421
+  fork: 235
+  release: 423
   contributor: 112
-  pullRequest: 2923
-  issue: 1389
+  pullRequest: 2926
+  issue: 1390
 language:
-  TypeScript: 8572480
+  TypeScript: 8731641
   Swift: 48842
   Ruby: 14794
   Shell: 13657
   JavaScript: 11211
   Batchfile: 62
-totalBytes: 8661046
+totalBytes: 8820207
 recent:
   last30d:
     since: 2026-08-12
-    release: 10
-    mergedPR: 94
-    openPR: 68
+    release: 12
+    mergedPR: 100
+    openPR: 65
     closedIssue: 2
-    openIssue: 13
-    commit: 133
+    openIssue: 14
+    commit: 145
   last60d:
     since: 2026-07-13
-    release: 24
-    mergedPR: 187
-    openPR: 98
+    release: 26
+    mergedPR: 193
+    openPR: 95
     closedIssue: 9
-    openIssue: 21
-    commit: 279
+    openIssue: 22
+    commit: 291
   last90d:
     since: 2026-06-13
-    release: 29
-    mergedPR: 285
-    openPR: 117
+    release: 31
+    mergedPR: 291
+    openPR: 114
     closedIssue: 18
-    openIssue: 26
-    commit: 369
+    openIssue: 27
+    commit: 381
   last180d:
     since: 2026-03-15
-    release: 55
-    mergedPR: 483
-    openPR: 174
+    release: 57
+    mergedPR: 489
+    openPR: 171
     closedIssue: 49
-    openIssue: 51
-    commit: 614
+    openIssue: 52
+    commit: 626
   last360d:
     since: 2025-09-16
-    release: 81
-    mergedPR: 648
-    openPR: 210
+    release: 83
+    mergedPR: 654
+    openPR: 207
     closedIssue: 75
-    openIssue: 95
-    commit: 841
+    openIssue: 96
+    commit: 853
   last720d:
     since: 2024-09-21
     release: 100
-    mergedPR: 942
-    openPR: 215
+    mergedPR: 948
+    openPR: 212
     closedIssue: 206
-    openIssue: 196
-    commit: 1355
+    openIssue: 197
+    commit: 1367
 total:
-  release: 421
-  mergedPR: 2366
-  openPR: 223
+  release: 423
+  mergedPR: 2372
+  openPR: 220
   closedIssue: 1143
-  openIssue: 246
-  commit: 3557
+  openIssue: 247
+  commit: 3569
 ---
 path: /home/runner/.x-repo/github.com/expo/eas-cli
-collectedAt: 2026-09-11T05:57:48Z
+collectedAt: 2026-09-11T18:56:31Z
 loc:
   TypeScript:
-    code: 242467
-    comments: 8569
-    blanks: 28069
-    files: 1713
+    code: 246724
+    comments: 8626
+    blanks: 28491
+    files: 1746
   Json:
-    code: 110480
+    code: 110494
     comments: 0
     blanks: 9
     files: 87
@@ -152,14 +152,14 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 6584
-    blanks: 3429
+    comments: 6682
+    blanks: 3461
     files: 32
 total:
-  code: 356001
-  comments: 15285
-  blanks: 31924
-  files: 1927
+  code: 360272
+  comments: 15440
+  blanks: 32378
+  files: 1960
 ---
 date: "2026-09-07"
 repo:
