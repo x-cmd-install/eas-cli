@@ -278,4 +278,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 26 are checked with a SAST tool'
 ---
-{"id":387022581,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOERxXE84XEX71","tag_name":"v24.3.0","target_commitish":"66cdccb0e7c3ec47054c3f093c25b9799d60ff36","name":"v24.3.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-11T12:31:21Z","updated_at":"2026-09-11T12:34:17Z","published_at":"2026-09-11T12:34:17Z","assets":[],"body":"v24.3.0\n\n### \ud83c\udf89 New features\n\n- [eas-build-job] Add a shared protocol for sandbox daemon commands. ([#4346](https://github.com/expo/eas-cli/pull/4346) by [@sjchmiela](https://github.com/sjchmiela))\n"}
