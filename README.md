@@ -47,31 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,353 · **Forks**: 235 · **Open issues**: 1,392 · **Contributors**: 112
+- **Stars**: 1,355 · **Forks**: 236 · **Open issues**: 1,394 · **Contributors**: 112
 
 ## Totals (cumulative)
 
-- **Releases**: 423 · **Merged PRs**: 2372 · **Open PRs**: 222 · **Closed issues**: 1143 · **Open issues**: 249 · **Commits**: 3569
+- **Releases**: 423 · **Merged PRs**: 2372 · **Open PRs**: 223 · **Closed issues**: 1144 · **Open issues**: 250 · **Commits**: 3569
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 12 | 86 | 59 | 2 | 13 | 145 |
-| last60d | 2026-07-15 | 25 | 184 | 97 | 9 | 24 | 291 |
-| 90d | 2026-06-15 | 31 | 288 | 115 | 18 | 29 | 381 |
-| last180d | 2026-03-17 | 56 | 484 | 170 | 49 | 54 | 626 |
-| 360d | 2025-09-18 | 82 | 653 | 209 | 75 | 96 | 853 |
-| last720d | 2024-09-23 | 100 | 947 | 214 | 204 | 199 | 1367 |
-
-## Distribution status
-
-Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli). **1** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `24.3.0` | ✅ latest |
-| Nix unstable | `20.4.0` | ⚠️ outdated |
+| 30d | 2026-08-15 | 11 | 86 | 60 | 2 | 13 | 112 |
+| last60d | 2026-07-16 | 24 | 175 | 97 | 10 | 25 | 261 |
+| 90d | 2026-06-16 | 30 | 285 | 115 | 18 | 30 | 360 |
+| last180d | 2026-03-18 | 56 | 483 | 171 | 49 | 54 | 620 |
+| 360d | 2025-09-19 | 82 | 653 | 210 | 76 | 95 | 851 |
+| last720d | 2024-09-24 | 100 | 943 | 215 | 205 | 200 | 1365 |
 
 ## Improve this data
 
@@ -82,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:57:27Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:09:34Z._
