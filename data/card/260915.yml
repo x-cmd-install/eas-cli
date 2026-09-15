@@ -289,4 +289,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 14 are checked with a SAST tool'
 ---
-{"id":388878827,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOERxXE84XLdHr","tag_name":"v24.4.2","target_commitish":"195807643f7699352fe2ea7e632ac0e6735d4834","name":"v24.4.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-15T05:03:15Z","updated_at":"2026-09-15T05:05:32Z","published_at":"2026-09-15T05:05:32Z","assets":[],"body":"v24.4.2\n\n### \ud83d\udc1b Bug fixes\n\n- [eas-cli] Support Xcode 27, which replaces Simulator.app with Device Hub, in `build:dev`, `build:run`, and `run` for iOS simulator builds. ([#4405](https://github.com/expo/eas-cli/pull/4405) by [@brentvatne](https://github.com/brentvatne))\n"}
