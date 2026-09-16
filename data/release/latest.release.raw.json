@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/388878827",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/388878827/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/388878827/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.4.2",
-  "id": 388878827,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/389294971",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/389294971/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/389294971/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.6.0",
+  "id": 389294971,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84XLdHr",
-  "tag_name": "v24.4.2",
-  "target_commitish": "195807643f7699352fe2ea7e632ac0e6735d4834",
-  "name": "v24.4.2",
+  "node_id": "RE_kwDOERxXE84XNCt7",
+  "tag_name": "v24.6.0",
+  "target_commitish": "71cf0aea748b52a53e7844eb52c8314c14ed3e6b",
+  "name": "v24.6.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-15T05:03:15Z",
-  "updated_at": "2026-09-15T05:05:32Z",
-  "published_at": "2026-09-15T05:05:32Z",
+  "created_at": "2026-09-15T16:14:36Z",
+  "updated_at": "2026-09-15T16:16:52Z",
+  "published_at": "2026-09-15T16:16:52Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.4.2",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.4.2",
-  "body": "v24.4.2\n\n### 🐛 Bug fixes\n\n- [eas-cli] Support Xcode 27, which replaces Simulator.app with Device Hub, in `build:dev`, `build:run`, and `run` for iOS simulator builds. ([#4405](https://github.com/expo/eas-cli/pull/4405) by [@brentvatne](https://github.com/brentvatne))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.6.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.6.0",
+  "body": "v24.6.0\n\n### 🎉 New features\n\n- [eas-cli] Display logs in `eas build --wait`. ([#4303](https://github.com/expo/eas-cli/pull/4303) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n### 🐛 Bug fixes\n\n- [build-tools] Skip project source refresh for jobs with no sources. ([#4389](https://github.com/expo/eas-cli/pull/4389) by [@sjchmiela](https://github.com/sjchmiela))\n- [eas-cli] Stop fetching the primary account in the login query. Commands that need it now fetch it on demand, so scoped access tokens without primary account access no longer fail at login. ([#4380](https://github.com/expo/eas-cli/pull/4380) by [@wschurman](https://github.com/wschurman))\n\n### 🧹 Chores\n\n- [eas-cli] Regenerate GraphQL types and update Observe tests for the new `firstSeenAt` and `lastSeenAt` event-name fields. ([#4379](https://github.com/expo/eas-cli/pull/4379) by [@wschurman](https://github.com/wschurman))\n"
 }
