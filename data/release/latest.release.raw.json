@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/389294971",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/389294971/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/389294971/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.6.0",
-  "id": 389294971,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/390308646",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/390308646/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/390308646/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.7.0",
+  "id": 390308646,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84XNCt7",
-  "tag_name": "v24.6.0",
-  "target_commitish": "71cf0aea748b52a53e7844eb52c8314c14ed3e6b",
-  "name": "v24.6.0",
+  "node_id": "RE_kwDOERxXE84XQ6Mm",
+  "tag_name": "v24.7.0",
+  "target_commitish": "4a109648a6c59d4d897c6a3a880f77a6e49a4632",
+  "name": "v24.7.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-15T16:14:36Z",
-  "updated_at": "2026-09-15T16:16:52Z",
-  "published_at": "2026-09-15T16:16:52Z",
+  "created_at": "2026-09-16T22:13:30Z",
+  "updated_at": "2026-09-16T22:16:01Z",
+  "published_at": "2026-09-16T22:16:01Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.6.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.6.0",
-  "body": "v24.6.0\n\n### 🎉 New features\n\n- [eas-cli] Display logs in `eas build --wait`. ([#4303](https://github.com/expo/eas-cli/pull/4303) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n### 🐛 Bug fixes\n\n- [build-tools] Skip project source refresh for jobs with no sources. ([#4389](https://github.com/expo/eas-cli/pull/4389) by [@sjchmiela](https://github.com/sjchmiela))\n- [eas-cli] Stop fetching the primary account in the login query. Commands that need it now fetch it on demand, so scoped access tokens without primary account access no longer fail at login. ([#4380](https://github.com/expo/eas-cli/pull/4380) by [@wschurman](https://github.com/wschurman))\n\n### 🧹 Chores\n\n- [eas-cli] Regenerate GraphQL types and update Observe tests for the new `firstSeenAt` and `lastSeenAt` event-name fields. ([#4379](https://github.com/expo/eas-cli/pull/4379) by [@wschurman](https://github.com/wschurman))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.7.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.7.0",
+  "body": "v24.7.0\n\n### 🎉 New features\n\n- [build-tools] Stream iOS Simulator previews with H.264. ([#4416](https://github.com/expo/eas-cli/pull/4416) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Report the expo.dev preview page as a simulator session's preview URL, and the preview server behind it as `previewApiUrl`. ([#4353](https://github.com/expo/eas-cli/pull/4353) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] `eas simulator:start` and `eas simulator:get` now report the expo.dev preview page instead of the raw tunnel URL, in both the printed instructions and `--json`. ([#4352](https://github.com/expo/eas-cli/pull/4352) by [@gwdp](https://github.com/gwdp))\n\n### 🐛 Bug fixes\n\n- [build-tools] Honor `EAS_OVERRIDE_PACKAGE_MANAGER` and `EAS_FALLBACK_PACKAGE_MANAGER` when installing and launching simulator packages (serve-sim, device-hub, Argent, agent-device, Appium) so they can use bun instead of stalling on npm audit. ([#4343](https://github.com/expo/eas-cli/pull/4343) by [@gwdp](https://github.com/gwdp))\n"
 }
