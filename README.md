@@ -4,7 +4,7 @@
 
 Fastest way to build, submit, and update iOS and Android apps
 
-![eas-cli](https://repo.x-cmd.io/eas-cli.svg)
+[![x-cmd/install — eas-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/eas-cli.svg)](https://x-cmd.com/install/eas-cli)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,356 · **Forks**: 238 · **Open issues**: 1,399 · **Contributors**: 112
+- **Stars**: 1,357 · **Forks**: 238 · **Open issues**: 1,400 · **Contributors**: 112
 
 ## Totals (cumulative)
 
-- **Releases**: 429 · **Merged PRs**: 2394 · **Open PRs**: 233 · **Closed issues**: 1148 · **Open issues**: 251 · **Commits**: 3607
+- **Releases**: 429 · **Merged PRs**: 2394 · **Open PRs**: 236 · **Closed issues**: 1150 · **Open issues**: 250 · **Commits**: 3607
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 17 | 95 | 68 | 5 | 13 | 150 |
-| last60d | 2026-07-20 | 29 | 188 | 107 | 13 | 25 | 299 |
-| 90d | 2026-06-20 | 35 | 298 | 121 | 20 | 31 | 398 |
-| last180d | 2026-03-22 | 62 | 501 | 179 | 53 | 55 | 658 |
-| 360d | 2025-09-23 | 88 | 674 | 220 | 79 | 94 | 889 |
-| last720d | 2024-09-28 | 100 | 961 | 225 | 207 | 201 | 1388 |
+| 30d | 2026-08-21 | 16 | 87 | 62 | 5 | 14 | 150 |
+| last60d | 2026-07-22 | 29 | 182 | 109 | 14 | 24 | 299 |
+| 90d | 2026-06-22 | 35 | 298 | 125 | 22 | 30 | 398 |
+| last180d | 2026-03-24 | 62 | 500 | 182 | 54 | 52 | 658 |
+| 360d | 2025-09-25 | 88 | 673 | 224 | 80 | 93 | 889 |
+| last720d | 2024-09-30 | 100 | 960 | 228 | 209 | 200 | 1388 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:00:12Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:12:28Z._
