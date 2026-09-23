@@ -4,7 +4,7 @@
 
 Fastest way to build, submit, and update iOS and Android apps
 
-[![x-cmd/install — eas-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/eas-cli.svg?lang=zh)](https://x-cmd.com/install/eas-cli)
+[![x-cmd/install — eas-cli Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/eas-cli.svg?lang=zh)](https://x-cmd.com/install/eas-cli)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install eas-cli
 
 ## 代码洞察
 
-合计: **368,218** 行代码（覆盖前 5 种语言、共 **1904** 个文件）。
+合计: **368,304** 行代码（覆盖前 5 种语言、共 **1904** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 252,145 | 8,855 | 29,058 | 1765 |
+| TypeScript | 252,231 | 8,855 | 29,071 | 1765 |
 | Json | 111,989 | 0 | 9 | 87 |
 | Swift | 1,418 | 20 | 130 | 9 |
 | C | 996 | 77 | 88 | 6 |
@@ -26,13 +26,13 @@ x install eas-cli
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.1 / 10**
+总评分: **5.4 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
-- **Security-Policy** (3/10) — security policy file detected
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Security-Policy** (3/10) — security policy file detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -43,26 +43,26 @@ x install eas-cli
 ## 发布
 
 - **最新版本**: `v24.7.0` (2026-09-16)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 
 ## 流行度
 
-- **Star**: 1,357 · **Fork**: 238 · **开放 issue**: 1,400 · **贡献者**: 112
+- **Star**: 1,358 · **Fork**: 238 · **开放 issue**: 1,401 · **贡献者**: 112
 
 ## 累计统计
 
-- **发布数**: 429 · **已合并 PR**: 2398 · **开放 PR**: 239 · **已关闭 issue**: 1151 · **开放 issue**: 249 · **提交数**: 3611
+- **发布数**: 429 · **已合并 PR**: 2401 · **开放 PR**: 238 · **已关闭 issue**: 1151 · **开放 issue**: 250 · **提交数**: 3614
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 16 | 91 | 62 | 5 | 14 | 123 |
-| last60d | 2026-07-24 | 27 | 175 | 105 | 12 | 23 | 250 |
-| 90d | 2026-06-24 | 35 | 300 | 126 | 23 | 28 | 394 |
-| last180d | 2026-03-26 | 62 | 491 | 181 | 55 | 50 | 645 |
-| 360d | 2025-09-27 | 88 | 676 | 227 | 80 | 92 | 888 |
-| last720d | 2024-10-02 | 100 | 964 | 231 | 210 | 199 | 1382 |
+| 30d | 2026-08-24 | 16 | 87 | 56 | 5 | 12 | 126 |
+| last60d | 2026-07-25 | 26 | 177 | 104 | 12 | 24 | 253 |
+| 90d | 2026-06-25 | 35 | 298 | 122 | 23 | 29 | 397 |
+| last180d | 2026-03-27 | 62 | 492 | 178 | 55 | 51 | 648 |
+| 360d | 2025-09-28 | 88 | 679 | 226 | 80 | 92 | 891 |
+| last720d | 2024-10-03 | 100 | 967 | 230 | 208 | 200 | 1385 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ eas-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:10:24Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:18:57Z._

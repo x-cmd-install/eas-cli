@@ -4,7 +4,7 @@
 
 Fastest way to build, submit, and update iOS and Android apps
 
-[![x-cmd/install — eas-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/eas-cli.svg)](https://x-cmd.com/install/eas-cli)
+[![x-cmd/install — eas-cli Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/eas-cli.svg)](https://x-cmd.com/install/eas-cli)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install eas-cli
 
 ## Code insight
 
-Total: **368,218** lines of code across **1904** files in the top 5 languages.
+Total: **368,304** lines of code across **1904** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 252,145 | 8,855 | 29,058 | 1765 |
+| TypeScript | 252,231 | 8,855 | 29,071 | 1765 |
 | Json | 111,989 | 0 | 9 | 87 |
 | Swift | 1,418 | 20 | 130 | 9 |
 | C | 996 | 77 | 88 | 6 |
@@ -26,13 +26,13 @@ Total: **368,218** lines of code across **1904** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.1 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
-- **Security-Policy** (3/10) — security policy file detected
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Security-Policy** (3/10) — security policy file detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v24.7.0` (2026-09-16)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-22
 
 ## Popularity
 
-- **Stars**: 1,357 · **Forks**: 238 · **Open issues**: 1,400 · **Contributors**: 112
+- **Stars**: 1,358 · **Forks**: 238 · **Open issues**: 1,401 · **Contributors**: 112
 
 ## Totals (cumulative)
 
-- **Releases**: 429 · **Merged PRs**: 2398 · **Open PRs**: 239 · **Closed issues**: 1151 · **Open issues**: 249 · **Commits**: 3611
+- **Releases**: 429 · **Merged PRs**: 2401 · **Open PRs**: 238 · **Closed issues**: 1151 · **Open issues**: 250 · **Commits**: 3614
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 16 | 91 | 62 | 5 | 14 | 123 |
-| last60d | 2026-07-24 | 27 | 175 | 105 | 12 | 23 | 250 |
-| 90d | 2026-06-24 | 35 | 300 | 126 | 23 | 28 | 394 |
-| last180d | 2026-03-26 | 62 | 491 | 181 | 55 | 50 | 645 |
-| 360d | 2025-09-27 | 88 | 676 | 227 | 80 | 92 | 888 |
-| last720d | 2024-10-02 | 100 | 964 | 231 | 210 | 199 | 1382 |
+| 30d | 2026-08-24 | 16 | 87 | 56 | 5 | 12 | 126 |
+| last60d | 2026-07-25 | 26 | 177 | 104 | 12 | 24 | 253 |
+| 90d | 2026-06-25 | 35 | 298 | 122 | 23 | 29 | 397 |
+| last180d | 2026-03-27 | 62 | 492 | 178 | 55 | 51 | 648 |
+| 360d | 2025-09-28 | 88 | 679 | 226 | 80 | 92 | 891 |
+| last720d | 2024-10-03 | 100 | 967 | 230 | 208 | 200 | 1385 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:10:23Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:18:55Z._
