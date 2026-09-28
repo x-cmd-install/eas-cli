@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,359 · **Forks**: 239 · **Open issues**: 1,403 · **Contributors**: 112
+- **Stars**: 1,360 · **Forks**: 240 · **Open issues**: 1,405 · **Contributors**: 112
 
 ## Totals (cumulative)
 
-- **Releases**: 430 · **Merged PRs**: 2414 · **Open PRs**: 238 · **Closed issues**: 1153 · **Open issues**: 250 · **Commits**: 3630
+- **Releases**: 430 · **Merged PRs**: 2414 · **Open PRs**: 238 · **Closed issues**: 1153 · **Open issues**: 252 · **Commits**: 3630
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 16 | 71 | 57 | 5 | 14 | 142 |
-| last60d | 2026-07-29 | 25 | 174 | 96 | 11 | 24 | 269 |
-| 90d | 2026-06-29 | 35 | 305 | 120 | 23 | 28 | 413 |
-| last180d | 2026-03-31 | 63 | 500 | 176 | 56 | 50 | 664 |
-| 360d | 2025-10-02 | 88 | 688 | 225 | 82 | 90 | 907 |
-| last720d | 2024-10-07 | 100 | 979 | 230 | 210 | 200 | 1400 |
+| 30d | 2026-08-29 | 16 | 69 | 55 | 5 | 16 | 105 |
+| last60d | 2026-07-30 | 25 | 168 | 96 | 11 | 26 | 238 |
+| 90d | 2026-06-30 | 34 | 303 | 119 | 23 | 30 | 394 |
+| last180d | 2026-04-01 | 63 | 498 | 176 | 56 | 52 | 654 |
+| 360d | 2025-10-03 | 88 | 688 | 225 | 82 | 91 | 894 |
+| last720d | 2024-10-08 | 100 | 979 | 230 | 209 | 202 | 1399 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:18:00Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:25:14Z._
