@@ -292,4 +292,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 26 are checked with a SAST tool'
 ---
-{"id":402148435,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOERxXE84X-ExT","tag_name":"v24.10.0","target_commitish":"5d31ecc2bc9ca65207315a04151dce6b4d29a94e","name":"v24.10.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-02T20:53:41Z","updated_at":"2026-10-02T20:55:55Z","published_at":"2026-10-02T20:55:55Z","assets":[],"body":"v24.10.0\n\n### \ud83c\udf89 New features\n\n- [eas-cli] Add `--network-capture` to `eas simulator` to record HTTP(S) traffic from apps on the device, and `--network-capture-field` to also keep headers, query values, or request and response bodies. ([#4308](https://github.com/expo/eas-cli/pull/4308) by [@gwdp](https://github.com/gwdp))\n"}
