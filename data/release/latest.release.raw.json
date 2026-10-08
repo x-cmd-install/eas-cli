@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/404123945",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/404123945/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/404123945/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.11.0",
-  "id": 404123945,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/406170448",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/406170448/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/406170448/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.12.0",
+  "id": 406170448,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84YFnEp",
-  "tag_name": "v24.11.0",
-  "target_commitish": "c72ae9f9f6142cbc87c4b70eb6b9a374ad51734f",
-  "name": "v24.11.0",
+  "node_id": "RE_kwDOERxXE84YNatQ",
+  "tag_name": "v24.12.0",
+  "target_commitish": "b5ac163b37ed24a9d95c5640b0af5548ca2c1d2e",
+  "name": "v24.12.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-05T22:00:12Z",
-  "updated_at": "2026-10-05T22:03:01Z",
-  "published_at": "2026-10-05T22:03:01Z",
+  "created_at": "2026-10-07T21:15:21Z",
+  "updated_at": "2026-10-07T21:17:55Z",
+  "published_at": "2026-10-07T21:17:55Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.11.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.11.0",
-  "body": "v24.11.0\n\n### 🎉 New features\n\n- [build-tools] Record iOS Simulator sessions through serve-sim. ([#4474](https://github.com/expo/eas-cli/pull/4474) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Add browser device login with resumable commands for chat agents. ([#4502](https://github.com/expo/eas-cli/pull/4502) by [@eiiot](https://github.com/eiiot))\n- [build-tools] Upload the display rotation agent-device reports for a screenshot as device run session artifact metadata. ([#4508](https://github.com/expo/eas-cli/pull/4508) by [@szdziedzic](https://github.com/szdziedzic))\n\n### 🐛 Bug fixes\n\n- [build-tools] Allow expo.test subdomains to open local and staging simulator previews. ([#4480](https://github.com/expo/eas-cli/pull/4480) by [@hirbod](https://github.com/hirbod))\n- [build-tools] Retry App Store Connect connection failures and safely recover interrupted status reads and upload commits. ([#4520](https://github.com/expo/eas-cli/pull/4520) by [@sjchmiela](https://github.com/sjchmiela))\n\n### 🧹 Chores\n\n- [build-tools] Remove the `eas/start_agent_device_remote_session` step; agent-device sessions use `eas/start_agent_device_session`. ([#4518](https://github.com/expo/eas-cli/pull/4518) by [@szdziedzic](https://github.com/szdziedzic))\n- [eas-cli] Report `eas-cli` as the request origin, and the coding agent when one is detected, when `eas simulator` creates a session, for analytics. ([#4523](https://github.com/expo/eas-cli/pull/4523) by [@sjkim-expo](https://github.com/sjkim-expo))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.12.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.12.0",
+  "body": "v24.12.0\n\n### 🎉 New features\n\n- [eas-cli] Fix `eas workflow:ssh` handling of missing builds IDs. ([#4529](https://github.com/expo/eas-cli/pull/4529) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [build-tools] Upload the embedded bundle from custom builds that use `eas/build`. ([#4494](https://github.com/expo/eas-cli/pull/4494) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Add the `eas/upload_embedded_bundle` step for custom build configs. ([#4494](https://github.com/expo/eas-cli/pull/4494) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Include `assetMapUrl` and `sourceMapUrl` in the `eas update:view --json` output. Each value is a signed download URL, or null when the update was published without that file. ([#4534](https://github.com/expo/eas-cli/pull/4534) by [@douglowder](https://github.com/douglowder))\n\n### 🐛 Bug fixes\n\n- [build-tools] Improve the embedded bundle upload output in build logs. ([#4557](https://github.com/expo/eas-cli/pull/4557) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Allow the unnotarized mitmproxy cask to run in iOS network capture sessions. ([#4556](https://github.com/expo/eas-cli/pull/4556) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Encode macOS simulator session previews with cwebp, because Homebrew's FFmpeg cannot encode WebP. ([#4549](https://github.com/expo/eas-cli/pull/4549) by [@szdziedzic](https://github.com/szdziedzic))\n"
 }
