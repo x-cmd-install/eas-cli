@@ -14,11 +14,11 @@ x install eas-cli
 
 ## Code insight
 
-Total: **385,047** lines of code across **1967** files in the top 5 languages.
+Total: **386,161** lines of code across **1975** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 269,235 | 9,471 | 30,521 | 1830 |
+| TypeScript | 270,349 | 9,489 | 30,618 | 1838 |
 | Json | 113,022 | 0 | 9 | 87 |
 | C | 996 | 77 | 88 | 6 |
 | Yaml | 541 | 1 | 26 | 37 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v24.12.0` (2026-10-07)
-- **Last commit**: 2026-10-07
+- **Latest**: `v24.12.1` (2026-10-08)
+- **Last commit**: 2026-10-08
 
 ## Popularity
 
-- **Stars**: 1,363 · **Forks**: 247 · **Open issues**: 1,413 · **Contributors**: 115
+- **Stars**: 1,365 · **Forks**: 250 · **Open issues**: 1,413 · **Contributors**: 115
 
 ## Totals (cumulative)
 
-- **Releases**: 434 · **Merged PRs**: 2471 · **Open PRs**: 233 · **Closed issues**: 1156 · **Open issues**: 257 · **Commits**: 3700
+- **Releases**: 435 · **Merged PRs**: 2480 · **Open PRs**: 240 · **Closed issues**: 1156 · **Open issues**: 257 · **Commits**: 3712
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 17 | 89 | 54 | 5 | 22 | 149 |
-| last60d | 2026-08-09 | 25 | 203 | 87 | 12 | 30 | 277 |
-| 90d | 2026-07-10 | 37 | 303 | 111 | 21 | 33 | 445 |
-| last180d | 2026-04-11 | 65 | 540 | 169 | 53 | 56 | 711 |
-| 360d | 2025-10-13 | 88 | 739 | 219 | 80 | 93 | 952 |
-| last720d | 2024-10-18 | 100 | 1023 | 225 | 202 | 207 | 1460 |
+| 30d | 2026-09-09 | 18 | 96 | 61 | 5 | 20 | 161 |
+| last60d | 2026-08-10 | 26 | 210 | 93 | 12 | 30 | 289 |
+| 90d | 2026-07-11 | 38 | 310 | 118 | 21 | 33 | 457 |
+| last180d | 2026-04-12 | 66 | 549 | 176 | 53 | 56 | 723 |
+| 360d | 2025-10-14 | 87 | 747 | 226 | 79 | 93 | 964 |
+| last720d | 2024-10-19 | 100 | 1031 | 232 | 200 | 207 | 1467 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T07:05:40Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T07:02:43Z._
