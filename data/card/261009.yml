@@ -292,4 +292,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 21 are checked with a SAST tool'
 ---
-{"id":407290928,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOERxXE84YRsQw","tag_name":"v24.12.1","target_commitish":"01e3be71aab19f224d2695d886df52390fdc5674","name":"v24.12.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-08T21:49:04Z","updated_at":"2026-10-08T21:51:33Z","published_at":"2026-10-08T21:51:33Z","assets":[],"body":"v24.12.1\n\n### \ud83d\udc1b Bug fixes\n\n- [eas-cli] Stop a simulator session that the server creates after Ctrl+C lands during `eas simulator` create. ([#4522](https://github.com/expo/eas-cli/pull/4522) by [@sjkim-expo](https://github.com/sjkim-expo))\n"}
