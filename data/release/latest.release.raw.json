@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/407290928",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/407290928/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/407290928/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.12.1",
-  "id": 407290928,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/410861705",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/410861705/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/410861705/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.13.0",
+  "id": 410861705,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84YRsQw",
-  "tag_name": "v24.12.1",
-  "target_commitish": "01e3be71aab19f224d2695d886df52390fdc5674",
-  "name": "v24.12.1",
+  "node_id": "RE_kwDOERxXE84YfUCJ",
+  "tag_name": "v24.13.0",
+  "target_commitish": "34e8b45bad68ab35e657a401b3d8d555bdce2512",
+  "name": "v24.13.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-08T21:49:04Z",
-  "updated_at": "2026-10-08T21:51:33Z",
-  "published_at": "2026-10-08T21:51:33Z",
+  "created_at": "2026-10-12T17:44:06Z",
+  "updated_at": "2026-10-12T17:47:08Z",
+  "published_at": "2026-10-12T17:47:08Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.12.1",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.12.1",
-  "body": "v24.12.1\n\n### 🐛 Bug fixes\n\n- [eas-cli] Stop a simulator session that the server creates after Ctrl+C lands during `eas simulator` create. ([#4522](https://github.com/expo/eas-cli/pull/4522) by [@sjkim-expo](https://github.com/sjkim-expo))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.13.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.13.0",
+  "body": "v24.13.0\n\n### 🎉 New features\n\n- [build-tools] Let the MCP server read text and image files from sandboxes. ([#4555](https://github.com/expo/eas-cli/pull/4555) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli][local-build-plugin] Deprecate Node.js 20, and print a warning when running on it. A future release will require Node.js 22 or newer. Development and CI now use Node.js 22. ([#4579](https://github.com/expo/eas-cli/pull/4579) by [@douglowder](https://github.com/douglowder))\n- [build-tools] Add `eas/run_agent`, a step that runs Claude Code for an agent run and connects it to the Expo MCP server. ([#4552](https://github.com/expo/eas-cli/pull/4552) by [@hSATAC](https://github.com/hSATAC))\n- [build-tools] Support Codex in `eas/run_agent`. ([#4553](https://github.com/expo/eas-cli/pull/4553) by [@hSATAC](https://github.com/hSATAC))\n- [build-tools] Write the agent's messages, tool calls, tool results and errors to the `eas/run_agent` job log as plain lines instead of raw JSON events. ([#4568](https://github.com/expo/eas-cli/pull/4568) by [@hSATAC](https://github.com/hSATAC))\n- [eas-cli] Show the average and P75 end-to-end run duration in `eas workflow:insights`. ([#4566](https://github.com/expo/eas-cli/pull/4566) by [@hSATAC](https://github.com/hSATAC))\n- [eas-cli] Ask for the App Store Connect API key type (team or individual) in the submission key prompt and skip the Issuer ID prompt for individual keys. ([#4589](https://github.com/expo/eas-cli/pull/4589) by [@sswrk](https://github.com/sswrk))\n- [build-tools] Add `eas/download_submission_archive` to request a fresh archive URL when the step runs. ([#4539](https://github.com/expo/eas-cli/pull/4539) by [@sjchmiela](https://github.com/sjchmiela))\n- [eas-build-job] Add an `uploadArtifact` command to the sandbox daemon protocol. ([#4562](https://github.com/expo/eas-cli/pull/4562) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [build-tools] Let connected sandboxes upload files as sandbox artifacts through the Expo MCP server. ([#4563](https://github.com/expo/eas-cli/pull/4563) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n### 🐛 Bug fixes\n\n- [build-tools] Look up ffmpeg on PATH instead of running it. ([#4582](https://github.com/expo/eas-cli/pull/4582) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Stop reporting individual App Store Connect API keys as not valid on Apple's servers when adding them in `eas credentials`. ([#4588](https://github.com/expo/eas-cli/pull/4588) by [@sswrk](https://github.com/sswrk))\n- [build-tools] Install ffmpeg for Appium simulator sessions. ([#4577](https://github.com/expo/eas-cli/pull/4577) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Close the file of an artifact upload before reporting that the upload is done. ([#4609](https://github.com/expo/eas-cli/pull/4609) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n"
 }
