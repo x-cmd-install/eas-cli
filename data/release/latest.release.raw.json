@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/413185287",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/413185287/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/413185287/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v24.14.0",
-  "id": 413185287,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/414343150",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/414343150/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/414343150/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v25.0.0",
+  "id": 414343150,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84YoLUH",
-  "tag_name": "v24.14.0",
-  "target_commitish": "102f06cc50e84dbdb0251c81de9899729c9fc485",
-  "name": "v24.14.0",
+  "node_id": "RE_kwDOERxXE84Ysl_u",
+  "tag_name": "v25.0.0",
+  "target_commitish": "785cfe2d53c3dd7f36824131da945574d54cd41a",
+  "name": "v25.0.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-14T21:08:28Z",
-  "updated_at": "2026-10-14T21:10:56Z",
-  "published_at": "2026-10-14T21:10:56Z",
+  "created_at": "2026-10-15T22:42:24Z",
+  "updated_at": "2026-10-15T22:45:24Z",
+  "published_at": "2026-10-15T22:45:24Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v24.14.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v24.14.0",
-  "body": "v24.14.0\n\n### 🎉 New features\n\n- [eas-cli] Add `--platform` to `eas workflow:insights:maestro` and list Maestro runs and flows per platform. ([#4613](https://github.com/expo/eas-cli/pull/4613) by [@hSATAC](https://github.com/hSATAC))\n\n### 🐛 Bug fixes\n\n- [build-tools] Allow more time for iOS screen recordings to finalize during session shutdown. ([#4626](https://github.com/expo/eas-cli/pull/4626) by [@gwdp](https://github.com/gwdp))\n\n### 🧹 Chores\n\n- [eas-cli] Fix the `channel:protect` and `channel:unprotect` descriptions to include Release Managers and Owners, not only admins. ([#4616](https://github.com/expo/eas-cli/pull/4616) by [@byronkarlen](https://github.com/byronkarlen))\n- [build-tools] Disable the Argent video watermark in `eas/start_argent_remote_session`. ([#4574](https://github.com/expo/eas-cli/pull/4574) by [@szdziedzic](https://github.com/szdziedzic))\n- [build-tools] Download the upterm binary through the build cache proxy. ([#4442](https://github.com/expo/eas-cli/pull/4442) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v25.0.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v25.0.0",
+  "body": "v25.0.0\n\n### 🛠 Breaking changes\n\n- [eas-cli] Default new simulator sessions to authenticated preview links and omit preview credentials from private output; use `simulator:start --public-link` for public sharing, while `simulator:get` follows the saved preference. ([#4619](https://github.com/expo/eas-cli/pull/4619) by [@gwdp](https://github.com/gwdp))\n\n### 🎉 New features\n\n- [build-tools] Start `expo-device-hub` for Android simulator sessions with `--require-token` and the website origins, as serve-sim starts for iOS, and report its session token. ([#4578](https://github.com/expo/eas-cli/pull/4578) by [@krystofwoldrich](https://github.com/krystofwoldrich))\n- [build-tools] Respect saved sharing preferences for iOS simulator preview sessions. ([#4620](https://github.com/expo/eas-cli/pull/4620) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Give agent-device and its simulator preview separate session logs. ([#4585](https://github.com/expo/eas-cli/pull/4585) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Give Appium and its simulator preview separate session logs. ([#4586](https://github.com/expo/eas-cli/pull/4586) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Give Argent and its simulator preview separate session logs. ([#4587](https://github.com/expo/eas-cli/pull/4587) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Let serve-sim start the iOS Simulator for web-preview sessions. ([#4601](https://github.com/expo/eas-cli/pull/4601) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Stream simulator preview output into its existing session step. ([#4525](https://github.com/expo/eas-cli/pull/4525) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Use effectivePermissions for logic about capabilities and account:view display. ([#4637](https://github.com/expo/eas-cli/pull/4637) by [@wschurman](https://github.com/wschurman))\n\n### 🐛 Bug fixes\n\n- [build-tools] Speed up cold iOS Appium sessions by launching preinstalled WebDriverAgent. ([#4618](https://github.com/expo/eas-cli/pull/4618) by [@gwdp](https://github.com/gwdp))\n- [build-tools][worker] Call the device run session worker API with the session token when www provides one. ([#4615](https://github.com/expo/eas-cli/pull/4615) by [@szdziedzic](https://github.com/szdziedzic))\n- [build-tools][eas-json] Clarify Google Play submission messages and reject zero Android submission rollouts. ([#4625](https://github.com/expo/eas-cli/pull/4625) by [@sjchmiela](https://github.com/sjchmiela))\n- [eas-cli] Update error message for scoped VC in EAS CLI now that scoped can be used outside build. ([#4636](https://github.com/expo/eas-cli/pull/4636) by [@wschurman](https://github.com/wschurman))\n\n### 🧹 Chores\n\n- [build-tools][worker] Mask the credentials `eas/run_agent` leases with the build log secrets filter instead of redacting them in the step. ([#4624](https://github.com/expo/eas-cli/pull/4624) by [@hSATAC](https://github.com/hSATAC))\n- [build-tools] Add shared opt-in serve-sim Simulator startup support. ([#4605](https://github.com/expo/eas-cli/pull/4605) by [@gwdp](https://github.com/gwdp))\n\n"
 }
