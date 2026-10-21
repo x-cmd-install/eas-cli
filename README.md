@@ -14,11 +14,11 @@ x install eas-cli
 
 ## Code insight
 
-Total: **402,798** lines of code across **2061** files in the top 5 languages.
+Total: **404,259** lines of code across **2064** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 291,593 | 9,686 | 32,206 | 1923 |
+| TypeScript | 293,054 | 9,726 | 32,359 | 1926 |
 | Json | 108,446 | 0 | 9 | 88 |
 | C | 996 | 77 | 88 | 6 |
 | Yaml | 541 | 1 | 26 | 37 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v25.2.0` (2026-10-17)
+- **Latest**: `v25.3.0` (2026-10-20)
 - **Last commit**: 2026-10-20
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 440 · **Merged PRs**: 2548 · **Open PRs**: 261 · **Closed issues**: 1159 · **Open issues**: 262 · **Commits**: 3791
+- **Releases**: 441 · **Merged PRs**: 2554 · **Open PRs**: 263 · **Closed issues**: 1161 · **Open issues**: 260 · **Commits**: 3799
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 11 | 127 | 62 | 1 | 20 | 163 |
-| last60d | 2026-08-21 | 27 | 238 | 93 | 10 | 30 | 320 |
-| 90d | 2026-07-22 | 40 | 336 | 136 | 21 | 38 | 445 |
-| last180d | 2026-04-23 | 69 | 605 | 192 | 54 | 56 | 780 |
-| 360d | 2025-10-25 | 88 | 805 | 246 | 81 | 94 | 1017 |
-| last720d | 2024-10-30 | 100 | 1083 | 253 | 199 | 210 | 1521 |
+| 30d | 2026-09-21 | 12 | 128 | 63 | 1 | 20 | 171 |
+| last60d | 2026-08-22 | 28 | 244 | 92 | 12 | 28 | 328 |
+| 90d | 2026-07-23 | 39 | 336 | 136 | 23 | 36 | 453 |
+| last180d | 2026-04-24 | 69 | 609 | 193 | 56 | 54 | 788 |
+| 360d | 2025-10-26 | 89 | 811 | 248 | 83 | 92 | 1025 |
+| last720d | 2024-10-31 | 100 | 1085 | 255 | 201 | 208 | 1528 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:45:08Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:38:42Z._
