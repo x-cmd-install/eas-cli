@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/416127143",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/416127143/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/416127143/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v25.2.0",
-  "id": 416127143,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/418774745",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/418774745/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/418774745/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v25.3.0",
+  "id": 418774745,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84YzZin",
-  "tag_name": "v25.2.0",
-  "target_commitish": "e61a563b70dfd263b2b1948226374be2d0bc28f3",
-  "name": "v25.2.0",
+  "node_id": "RE_kwDOERxXE84Y9f7Z",
+  "tag_name": "v25.3.0",
+  "target_commitish": "44b63e5a7dfecb6f3bb2ddcb6157355bcc43c998",
+  "name": "v25.3.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-17T23:23:01Z",
-  "updated_at": "2026-10-17T23:25:53Z",
-  "published_at": "2026-10-17T23:25:53Z",
+  "created_at": "2026-10-20T19:17:05Z",
+  "updated_at": "2026-10-20T19:19:54Z",
+  "published_at": "2026-10-20T19:19:54Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v25.2.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v25.2.0",
-  "body": "v25.2.0\n\n### 🎉 New features\n\n- [eas-cli] Add experimentation client. ([#4558](https://github.com/expo/eas-cli/pull/4558) by [@williamgrosset](https://github.com/williamgrosset))\n- [eas-cli] Add a Free plan build limit guidance experiment for coding agents to `eas build`. ([#4631](https://github.com/expo/eas-cli/pull/4631) by [@williamgrosset](https://github.com/williamgrosset))\n- [build-tools] Let serve-sim boot, install and launch agent-device iOS sessions with the local-egress guard. ([#4544](https://github.com/expo/eas-cli/pull/4544) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Add `eas simulator:control` to run serve-sim actions, with file upload and download, on a remote iOS simulator session. ([#4641](https://github.com/expo/eas-cli/pull/4641) by [@gwdp](https://github.com/gwdp))\n\n### 🧹 Chores\n\n- [eas-cli] Prepare authenticated simulator action transport and file transfers. ([#4642](https://github.com/expo/eas-cli/pull/4642) by [@gwdp](https://github.com/gwdp))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v25.3.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v25.3.0",
+  "body": "v25.3.0\n\n### 🎉 New features\n\n- [eas-cli] Add a Free plan build limit checkout experiment to `eas build` that offers to open the Starter plan checkout. ([#4633](https://github.com/expo/eas-cli/pull/4633) by [@williamgrosset](https://github.com/williamgrosset))\n- [build-tools] Let serve-sim boot, install and launch Argent iOS sessions. ([#4602](https://github.com/expo/eas-cli/pull/4602) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Let serve-sim boot, install and launch Appium iOS sessions. ([#4603](https://github.com/expo/eas-cli/pull/4603) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Upload the screen recording session manifest as a JSON artifact alongside each video. ([#4689](https://github.com/expo/eas-cli/pull/4689) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Add a `--system-image` flag to `eas simulator:start` to select the Android SDK system image for the emulator. ([#4500](https://github.com/expo/eas-cli/pull/4500) by [@krystofwoldrich](https://github.com/krystofwoldrich))\n\n### 🐛 Bug fixes\n\n- [build-tools] Quote Android launch arguments and URLs for the device shell in simulator sessions, so values with spaces or shell characters reach `am start` as one argument; pass raw values and remove any shell quoting added as a workaround. ([#4695](https://github.com/expo/eas-cli/pull/4695) by [@brentvatne](https://github.com/brentvatne))\n- [build-tools] Wait up to five minutes for Google Play to finish processing an uploaded bundle before giving up on the edit commit. ([#4700](https://github.com/expo/eas-cli/pull/4700) by [@hSATAC](https://github.com/hSATAC))\n- [build-tools] Reset the device run session idle timer on iOS Simulator preview input. ([#4691](https://github.com/expo/eas-cli/pull/4691) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Forward captured Simulator traffic through the local egress proxy. ([#4598](https://github.com/expo/eas-cli/pull/4598) by [@gwdp](https://github.com/gwdp))\n\n"
 }
