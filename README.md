@@ -14,15 +14,15 @@ x install eas-cli
 
 ## Code insight
 
-Total: **411,003** lines of code across **2095** files in the top 5 languages.
+Total: **420,731** lines of code across **2154** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 297,483 | 9,835 | 32,775 | 1947 |
-| Json | 110,675 | 0 | 9 | 88 |
+| TypeScript | 307,083 | 10,015 | 33,490 | 2000 |
+| Json | 110,781 | 0 | 9 | 92 |
 | C | 996 | 77 | 88 | 6 |
 | Yaml | 541 | 1 | 26 | 37 |
-| JavaScript | 317 | 22 | 33 | 17 |
+| JavaScript | 339 | 23 | 33 | 19 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v27.1.0` (2026-10-28)
-- **Last commit**: 2026-10-28
+- **Latest**: `v27.2.0` (2026-10-30)
+- **Last commit**: 2026-10-30
 
 ## Popularity
 
-- **Stars**: 1,375 · **Forks**: 258 · **Open issues**: 1,428 · **Contributors**: 115
+- **Stars**: 1,376 · **Forks**: 258 · **Open issues**: 1,429 · **Contributors**: 116
 
 ## Totals (cumulative)
 
-- **Releases**: 443 · **Merged PRs**: 2592 · **Open PRs**: 237 · **Closed issues**: 1163 · **Open issues**: 265 · **Commits**: 3842
+- **Releases**: 444 · **Merged PRs**: 2612 · **Open PRs**: 222 · **Closed issues**: 1165 · **Open issues**: 264 · **Commits**: 3864
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 13 | 141 | 60 | 4 | 17 | 184 |
-| last60d | 2026-08-30 | 28 | 239 | 86 | 11 | 32 | 324 |
-| 90d | 2026-07-31 | 38 | 340 | 117 | 20 | 39 | 461 |
-| last180d | 2026-05-02 | 69 | 618 | 178 | 51 | 58 | 800 |
-| 360d | 2025-11-03 | 88 | 844 | 226 | 85 | 94 | 1067 |
-| last720d | 2024-11-08 | 100 | 1117 | 231 | 202 | 212 | 1554 |
+| 30d | 2026-09-30 | 14 | 148 | 49 | 4 | 16 | 206 |
+| last60d | 2026-08-31 | 29 | 248 | 73 | 13 | 31 | 346 |
+| 90d | 2026-08-01 | 39 | 354 | 106 | 22 | 38 | 483 |
+| last180d | 2026-05-03 | 70 | 634 | 167 | 53 | 57 | 822 |
+| 360d | 2025-11-04 | 89 | 864 | 211 | 86 | 93 | 1089 |
+| last720d | 2024-11-09 | 100 | 1137 | 216 | 204 | 211 | 1573 |
 
 ## Distribution status
 
@@ -70,7 +70,7 @@ Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `26.0.0` | ✅ latest |
+| Homebrew | `27.1.0` | ✅ latest |
 | Nix unstable | `24.8.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -82,4 +82,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:46:14Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:44:17Z._
