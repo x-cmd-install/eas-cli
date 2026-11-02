@@ -41,9 +41,9 @@
 - repo: nix_unstable
   srcname: eas-cli
   visiblename: eas-cli
-  version: 24.8.0
+  version: 27.2.0
   origversion: null
-  status: outdated
+  status: newest
   summary: EAS command line tool from submodule
   maintainers:
     - mk337337@gmail.com
