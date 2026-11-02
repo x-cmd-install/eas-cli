@@ -47,31 +47,31 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,376 · **Forks**: 259 · **Open issues**: 1,429 · **Contributors**: 116
+- **Stars**: 1,377 · **Forks**: 259 · **Open issues**: 1,431 · **Contributors**: 116
 
 ## Totals (cumulative)
 
-- **Releases**: 444 · **Merged PRs**: 2616 · **Open PRs**: 223 · **Closed issues**: 1165 · **Open issues**: 264 · **Commits**: 3868
+- **Releases**: 444 · **Merged PRs**: 2616 · **Open PRs**: 223 · **Closed issues**: 1165 · **Open issues**: 266 · **Commits**: 3868
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 14 | 132 | 47 | 4 | 16 | 156 |
-| last60d | 2026-09-02 | 27 | 248 | 74 | 13 | 31 | 335 |
-| 90d | 2026-08-03 | 39 | 354 | 106 | 21 | 38 | 461 |
-| last180d | 2026-05-05 | 69 | 634 | 167 | 52 | 56 | 804 |
-| 360d | 2025-11-06 | 89 | 865 | 212 | 86 | 92 | 1089 |
-| last720d | 2024-11-11 | 100 | 1141 | 217 | 203 | 210 | 1576 |
+| 30d | 2026-10-03 | 12 | 131 | 47 | 4 | 16 | 156 |
+| last60d | 2026-09-03 | 27 | 241 | 74 | 13 | 32 | 335 |
+| 90d | 2026-08-04 | 37 | 352 | 105 | 21 | 40 | 461 |
+| last180d | 2026-05-06 | 68 | 632 | 166 | 51 | 58 | 804 |
+| 360d | 2025-11-07 | 89 | 865 | 212 | 85 | 94 | 1089 |
+| last720d | 2024-11-12 | 100 | 1139 | 217 | 201 | 212 | 1575 |
 
 ## Distribution status
 
-Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli). **1** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
+Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli). **2** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Homebrew | `27.2.0` | ✅ latest |
-| Nix unstable | `24.8.0` | ⚠️ outdated |
+| Nix unstable | `27.2.0` | ✅ latest |
 
 ## Improve this data
 
@@ -82,4 +82,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:00:22Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:07:40Z._
