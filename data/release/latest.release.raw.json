@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/431879677",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/431879677/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/431879677/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.3.0",
-  "id": 431879677,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/433366554",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/433366554/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/433366554/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.4.1",
+  "id": 433366554,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84ZvfX9",
-  "tag_name": "v27.3.0",
-  "target_commitish": "bc25602d655eb5d5e3f3174836e13b567cae919d",
-  "name": "v27.3.0",
+  "node_id": "RE_kwDOERxXE84Z1KYa",
+  "tag_name": "v27.4.1",
+  "target_commitish": "3263ecfa369459437d7b5180564a796192f1189a",
+  "name": "v27.4.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-02T19:28:08Z",
-  "updated_at": "2026-11-03T02:53:59Z",
-  "published_at": "2026-11-03T02:53:59Z",
+  "created_at": "2026-11-04T00:23:17Z",
+  "updated_at": "2026-11-04T00:25:43Z",
+  "published_at": "2026-11-04T00:25:43Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.3.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.3.0",
-  "body": "v27.3.0\n\n### 🎉 New features\n\n- [eas-build-job] Add optional Observe error context to workflow jobs. ([#4787](https://github.com/expo/eas-cli/pull/4787) by [@AbbanMustafa](https://github.com/AbbanMustafa))\n\n### 🐛 Bug fixes\n\n- [eas-cli] Bump `@expo/apple-utils` to `2.3.0` to fix iOS capability sync when App Store Connect rejects enabling, disabling or changing a capability. ([#4790](https://github.com/expo/eas-cli/pull/4790) by [@douglowder](https://github.com/douglowder))\n- [eas-cli] Keep already linked App Groups, Merchant IDs and iCloud containers when capability sync links another identifier. ([#4584](https://github.com/expo/eas-cli/pull/4584) by [@ceydaakin](https://github.com/ceydaakin))\n- [worker] Mask secrets in every record the worker process writes to its stdout: the build log records and the worker's own records. ([#4782](https://github.com/expo/eas-cli/pull/4782) by [@hSATAC](https://github.com/hSATAC))\n- [worker][build-tools] Stop warmup in the background for jobs that do not use the warm Simulator, so job setup does not wait for it. Before build-tools boots or clones a Simulator, it waits until the launcher's state file records that cleanup finished, and fails if cleanup does not finish in time. ([#4721](https://github.com/expo/eas-cli/pull/4721) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Recover unhealthy device-session tunnels without changing their URLs and block further traffic when shutdown starts, even if ngrok cleanup times out. ([#4526](https://github.com/expo/eas-cli/pull/4526) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Stop sending the SSH host when registering an SSH session. ([#4784](https://github.com/expo/eas-cli/pull/4784) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.4.1",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.4.1",
+  "body": "v27.4.1\n\n### 🐛 Bug fixes\n\n- [simulator-launcher][build-tools] Wait for a starting warm Simulator launcher before claiming its session, instead of falling back to a cold start. ([#4810](https://github.com/expo/eas-cli/pull/4810) by [@gwdp](https://github.com/gwdp))\n\n"
 }
