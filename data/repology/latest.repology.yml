@@ -1,18 +1,7 @@
-- repo: nix_stable_25_11
-  srcname: eas-cli
-  visiblename: eas-cli
-  version: 16.23.1
-  origversion: null
-  status: outdated
-  summary: EAS command line tool from submodule
-  maintainers:
-    - mk337337@gmail.com
-  licenses:
-    - MIT
 - repo: homebrew
   srcname: eas-cli
   visiblename: eas-cli
-  version: 27.3.0
+  version: 27.4.1
   origversion: null
   status: newest
   summary: Command-line tool for working with Expo Application Services
@@ -20,6 +9,17 @@
   srcname: eas-cli
   visiblename: eas-cli
   version: 14.7.1
+  origversion: null
+  status: outdated
+  summary: EAS command line tool from submodule
+  maintainers:
+    - mk337337@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: eas-cli
+  visiblename: eas-cli
+  version: 16.23.1
   origversion: null
   status: outdated
   summary: EAS command line tool from submodule
