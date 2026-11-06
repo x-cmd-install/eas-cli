@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/433366554",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/433366554/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/433366554/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.4.1",
-  "id": 433366554,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/435861607",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/435861607/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/435861607/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.5.0",
+  "id": 435861607,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84Z1KYa",
-  "tag_name": "v27.4.1",
-  "target_commitish": "3263ecfa369459437d7b5180564a796192f1189a",
-  "name": "v27.4.1",
+  "node_id": "RE_kwDOERxXE84Z-rhn",
+  "tag_name": "v27.5.0",
+  "target_commitish": "78197795197f67b4deaf490d671c75dd9b81cb12",
+  "name": "v27.5.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-04T00:23:17Z",
-  "updated_at": "2026-11-04T00:25:43Z",
-  "published_at": "2026-11-04T00:25:43Z",
+  "created_at": "2026-11-05T23:03:34Z",
+  "updated_at": "2026-11-05T23:06:33Z",
+  "published_at": "2026-11-05T23:06:33Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.4.1",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.4.1",
-  "body": "v27.4.1\n\n### 🐛 Bug fixes\n\n- [simulator-launcher][build-tools] Wait for a starting warm Simulator launcher before claiming its session, instead of falling back to a cold start. ([#4810](https://github.com/expo/eas-cli/pull/4810) by [@gwdp](https://github.com/gwdp))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.5.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.5.0",
+  "body": "v27.5.0\n\n### 🎉 New features\n\n- [eas-cli] Import ordered action configurations with `eas simulator:control --import` and show progress for each action. ([#4686](https://github.com/expo/eas-cli/pull/4686) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Reuse simulator control connections with `--keep-alive` or `simulator:control:connection open`. Set an idle timeout, inspect the connection, or close it without stopping the simulator session. Keep-alive currently supports macOS and Linux. ([#4791](https://github.com/expo/eas-cli/pull/4791) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Start simulator sessions from saved settings and apply control actions after readiness. ([#4687](https://github.com/expo/eas-cli/pull/4687) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Run `eas simulator` commands also as `eas simulators`, `eas emulator` and `eas emulators`, for example `eas emulators:start` or `eas simulators:list`. These aliases are hidden from help. ([#4794](https://github.com/expo/eas-cli/pull/4794) by [@szdziedzic](https://github.com/szdziedzic))\n- [eas-cli] List `eas workflow:ssh` in `eas --help`. ([#4793](https://github.com/expo/eas-cli/pull/4793) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n### 🐛 Bug fixes\n\n- [build-tools] Stop an agent-device session that is still starting up when it is stopped. ([#4666](https://github.com/expo/eas-cli/pull/4666) by [@gwdp](https://github.com/gwdp))\n- [build-tools] Stop an Appium session that is still starting up when it is stopped. ([#4668](https://github.com/expo/eas-cli/pull/4668) by [@gwdp](https://github.com/gwdp))\n  Report temporary-directory cleanup failures when Stop interrupts Appium installation.\n- [build-tools] Stop an Argent session that is still starting up when it is stopped. ([#4667](https://github.com/expo/eas-cli/pull/4667) by [@gwdp](https://github.com/gwdp))\n- [eas-cli] Find the personal account by its owner instead of assuming that its name equals the username. ([#3922](https://github.com/expo/eas-cli/pull/3922) by [@byronkarlen](https://github.com/byronkarlen))\n- [build-tools][worker] Use the sandbox worker token for sandbox jobs when www provides one, and keep Expo credentials out of the commands of those jobs. ([#4807](https://github.com/expo/eas-cli/pull/4807) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli] Show the Expo Simulators hint after a successful build from November 12 instead of November 10. ([#4817](https://github.com/expo/eas-cli/pull/4817) by [@williamgrosset](https://github.com/williamgrosset))\n- [build-tools] Stop a web-preview session that is still starting up when it is stopped. ([#4669](https://github.com/expo/eas-cli/pull/4669) by [@gwdp](https://github.com/gwdp))\n\n### 🧹 Chores\n\n- [build-tools] Extract the worker API client core from the device run session worker API client. ([#4806](https://github.com/expo/eas-cli/pull/4806) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n"
 }
