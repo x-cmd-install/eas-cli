@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/440103336",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/440103336/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/440103336/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.7.0",
-  "id": 440103336,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/440650592",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/440650592/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/440650592/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.7.2",
+  "id": 440650592,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84aO3Go",
-  "tag_name": "v27.7.0",
-  "target_commitish": "8d5a2e33323b2a2989ea955bcb140bd66e2a2bd0",
-  "name": "v27.7.0",
+  "node_id": "RE_kwDOERxXE84aQ8tg",
+  "tag_name": "v27.7.2",
+  "target_commitish": "951ccba62cc520c7596f3553cf432c07a1b8ef68",
+  "name": "v27.7.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-10T08:25:21Z",
-  "updated_at": "2026-11-10T08:28:37Z",
-  "published_at": "2026-11-10T08:28:37Z",
+  "created_at": "2026-11-10T17:00:49Z",
+  "updated_at": "2026-11-10T17:03:55Z",
+  "published_at": "2026-11-10T17:03:55Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.7.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.7.0",
-  "body": "v27.7.0\n\n### 🎉 New features\n\n- [eas-cli] Add `--git-branch` and `--git-commit-hash` to `eas workflow:run` to record the branch and commit of the uploaded project. ([#4815](https://github.com/expo/eas-cli/pull/4815) by [@hSATAC](https://github.com/hSATAC))\n\n### 🐛 Bug fixes\n\n- [build-tools] Record Android emulator output and, when selected, device logcat during simulator sessions, and upload the last 20 MiB of each as a session artifact. ([#4822](https://github.com/expo/eas-cli/pull/4822) by [@vonovak](https://github.com/vonovak))\n- [eas-cli] Stop spinners from flickering when their text wraps onto a second line, such as the `simulator:start` queue message in a narrow terminal. ([#4850](https://github.com/expo/eas-cli/pull/4850) by [@brentvatne](https://github.com/brentvatne))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.7.2",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.7.2",
+  "body": "v27.7.2\n\n### 🐛 Bug fixes\n\n- [eas-cli] Add `--log-source` to `eas simulator` to select which Android logs a session records. ([#4823](https://github.com/expo/eas-cli/pull/4823) by [@vonovak](https://github.com/vonovak))\n- [build-tools] Start SSH session shells in the job's build directory instead of the worker's directory. ([#4843](https://github.com/expo/eas-cli/pull/4843) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli] Show that the ssh session has ended, instead of saying SSH was not enabled, when `eas workflow:ssh` is given the ID of a finished build. ([#4842](https://github.com/expo/eas-cli/pull/4842) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli] Show the ID argument and examples in `eas workflow:ssh --help`. ([#4829](https://github.com/expo/eas-cli/pull/4829) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n"
 }
