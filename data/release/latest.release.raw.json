@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/440650592",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/440650592/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/440650592/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.7.2",
-  "id": 440650592,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/442903979",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/442903979/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/442903979/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.9.0",
+  "id": 442903979,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84aQ8tg",
-  "tag_name": "v27.7.2",
-  "target_commitish": "951ccba62cc520c7596f3553cf432c07a1b8ef68",
-  "name": "v27.7.2",
+  "node_id": "RE_kwDOERxXE84aZi2r",
+  "tag_name": "v27.9.0",
+  "target_commitish": "14e9f1af44dbbf371a4e33cd06858c2e6f87b42e",
+  "name": "v27.9.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-10T17:00:49Z",
-  "updated_at": "2026-11-10T17:03:55Z",
-  "published_at": "2026-11-10T17:03:55Z",
+  "created_at": "2026-11-12T12:16:18Z",
+  "updated_at": "2026-11-12T12:19:21Z",
+  "published_at": "2026-11-12T12:19:21Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.7.2",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.7.2",
-  "body": "v27.7.2\n\n### 🐛 Bug fixes\n\n- [eas-cli] Add `--log-source` to `eas simulator` to select which Android logs a session records. ([#4823](https://github.com/expo/eas-cli/pull/4823) by [@vonovak](https://github.com/vonovak))\n- [build-tools] Start SSH session shells in the job's build directory instead of the worker's directory. ([#4843](https://github.com/expo/eas-cli/pull/4843) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli] Show that the ssh session has ended, instead of saying SSH was not enabled, when `eas workflow:ssh` is given the ID of a finished build. ([#4842](https://github.com/expo/eas-cli/pull/4842) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [eas-cli] Show the ID argument and examples in `eas workflow:ssh --help`. ([#4829](https://github.com/expo/eas-cli/pull/4829) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.9.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.9.0",
+  "body": "v27.9.0\n\n### 🎉 New features\n\n- [eas-cli] Warn about Expo Simulators and EAS Workflows outages from status.expo.dev before `eas simulator:start` creates a session, and describe degraded performance and maintenance correctly in all outage warnings. ([#4873](https://github.com/expo/eas-cli/pull/4873) by [@szdziedzic](https://github.com/szdziedzic))\n\n"
 }
