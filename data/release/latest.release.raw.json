@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/expo/eas-cli/releases/442903979",
-  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/442903979/assets",
-  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/442903979/assets{?name,label}",
-  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.9.0",
-  "id": 442903979,
+  "url": "https://api.github.com/repos/expo/eas-cli/releases/444822821",
+  "assets_url": "https://api.github.com/repos/expo/eas-cli/releases/444822821/assets",
+  "upload_url": "https://uploads.github.com/repos/expo/eas-cli/releases/444822821/assets{?name,label}",
+  "html_url": "https://github.com/expo/eas-cli/releases/tag/v27.10.0",
+  "id": 444822821,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOERxXE84aZi2r",
-  "tag_name": "v27.9.0",
-  "target_commitish": "14e9f1af44dbbf371a4e33cd06858c2e6f87b42e",
-  "name": "v27.9.0",
+  "node_id": "RE_kwDOERxXE84ag3Ul",
+  "tag_name": "v27.10.0",
+  "target_commitish": "1e112fee24ad76176b08a51eb52aa062addd9fd9",
+  "name": "v27.10.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-12T12:16:18Z",
-  "updated_at": "2026-11-12T12:19:21Z",
-  "published_at": "2026-11-12T12:19:21Z",
+  "created_at": "2026-11-13T22:56:24Z",
+  "updated_at": "2026-11-13T22:59:12Z",
+  "published_at": "2026-11-13T22:59:12Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.9.0",
-  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.9.0",
-  "body": "v27.9.0\n\n### 🎉 New features\n\n- [eas-cli] Warn about Expo Simulators and EAS Workflows outages from status.expo.dev before `eas simulator:start` creates a session, and describe degraded performance and maintenance correctly in all outage warnings. ([#4873](https://github.com/expo/eas-cli/pull/4873) by [@szdziedzic](https://github.com/szdziedzic))\n\n"
+  "tarball_url": "https://api.github.com/repos/expo/eas-cli/tarball/v27.10.0",
+  "zipball_url": "https://api.github.com/repos/expo/eas-cli/zipball/v27.10.0",
+  "body": "v27.10.0\n\n### 🎉 New features\n\n- [build-tools] Add the experimental `experimental_emulator_capture_version` input to `eas/start_android_emulator`. The Android Emulator then preloads that version of the `expo-emulator-capture` agent and uses the lavapipe renderer, and later steps start expo-device-hub with the emulator capture on. When the agent cannot install, the emulator starts as before. Only web preview sessions support the capture for now, so other session types fail with an error when the input is set. ([#4827](https://github.com/expo/eas-cli/pull/4827) by [@krystofwoldrich-agent](https://github.com/krystofwoldrich-agent))\n- [eas-cli] Add `eas simulator:devices` to list the devices Expo suggests for a simulator session. ([#4879](https://github.com/expo/eas-cli/pull/4879) by [@brentvatne](https://github.com/brentvatne))\n\n### 🐛 Bug fixes\n\n- [build-tools] Retry the first ngrok tunnel open of a device run session up to two times when ngrok rejects it with ERR_NGROK_802. The first open now waits 19 seconds instead of 15, so a tunnel that opens late is kept instead of closed. Startup can be cancelled during the retries, and a preview tunnel stops retrying when its session host finishes. ([#4874](https://github.com/expo/eas-cli/pull/4874) by [@szdziedzic](https://github.com/szdziedzic))\n- [eas-cli] Include the parent CLI command in telemetry to distinguish nested commands from direct usage. ([#4876](https://github.com/expo/eas-cli/pull/4876) by [@davidmokos](https://github.com/davidmokos))\n- [build-tools] Run worker SSH sessions as detached upterm sessions that reconnect on their own under the same session ID, and stop them with `upterm session stop`. ([#4857](https://github.com/expo/eas-cli/pull/4857) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [build-tools] Run the command a client passes with `eas workflow:ssh <id> <command>` in worker SSH sessions, in the build directory. ([#4863](https://github.com/expo/eas-cli/pull/4863) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n- [build-tools] Always download upterm for worker SSH sessions instead of using an `upterm` found on `PATH`. ([#4859](https://github.com/expo/eas-cli/pull/4859) by [@AHGIJMKLKKZNPJKQR](https://github.com/AHGIJMKLKKZNPJKQR))\n\n### 🧹 Chores\n\n- [eas-cli][build-tools] Bump Node.js to 22.23.5 to fix the CVEs in the [November 2026 Node.js security releases](https://nodejs.org/en/blog/vulnerability/november-2026-security-releases). ([#4889](https://github.com/expo/eas-cli/pull/4889) by [@ramonclaudio](https://github.com/ramonclaudio))\n\n"
 }

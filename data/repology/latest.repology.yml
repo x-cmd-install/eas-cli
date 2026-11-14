@@ -1,7 +1,7 @@
 - repo: homebrew
   srcname: eas-cli
   visiblename: eas-cli
-  version: 27.7.2
+  version: 27.9.0
   origversion: null
   status: newest
   summary: Command-line tool for working with Expo Application Services
