@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v27.10.0` (2026-11-13)
-- **Last commit**: 2026-11-13
+- **Last commit**: 2026-11-14
 
 ## Popularity
 
-- **Stars**: 1,384 · **Forks**: 263 · **Open issues**: 1,440 · **Contributors**: 118
+- **Stars**: 1,385 · **Forks**: 263 · **Open issues**: 1,440 · **Contributors**: 118
 
 ## Totals (cumulative)
 
-- **Releases**: 455 · **Merged PRs**: 2684 · **Open PRs**: 220 · **Closed issues**: 1174 · **Open issues**: 266 · **Commits**: 3958
+- **Releases**: 455 · **Merged PRs**: 2685 · **Open PRs**: 221 · **Closed issues**: 1174 · **Open issues**: 266 · **Commits**: 3959
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 18 | 131 | 36 | 5 | 20 | 194 |
-| last60d | 2026-09-15 | 31 | 266 | 64 | 12 | 31 | 361 |
-| 90d | 2026-08-16 | 43 | 387 | 93 | 24 | 37 | 526 |
-| last180d | 2026-05-18 | 74 | 665 | 157 | 54 | 52 | 862 |
-| 360d | 2025-11-19 | 99 | 928 | 209 | 93 | 93 | 1175 |
-| last720d | 2024-11-24 | 100 | 1187 | 214 | 196 | 210 | 1628 |
+| 30d | 2026-10-16 | 17 | 119 | 35 | 5 | 19 | 154 |
+| last60d | 2026-09-16 | 27 | 263 | 64 | 12 | 30 | 345 |
+| 90d | 2026-08-17 | 43 | 383 | 94 | 24 | 37 | 500 |
+| last180d | 2026-05-19 | 73 | 658 | 158 | 52 | 52 | 810 |
+| 360d | 2025-11-20 | 99 | 926 | 210 | 93 | 93 | 1171 |
+| last720d | 2024-11-25 | 100 | 1188 | 215 | 193 | 210 | 1629 |
 
 ## Distribution status
 
@@ -70,7 +70,7 @@ Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `27.9.0` | ✅ latest |
+| Homebrew | `27.10.0` | ✅ latest |
 | Nix unstable | `27.2.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -82,4 +82,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:50:02Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:41:30Z._
