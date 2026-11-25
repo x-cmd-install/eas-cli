@@ -26,13 +26,13 @@ x install eas-cli
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6 / 10**
+总评分: **5.9 / 10**
 
 评分最低的几项:
 
 - **Security-Policy** (3/10) — security policy file detected
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -47,31 +47,22 @@ x install eas-cli
 
 ## 流行度
 
-- **Star**: 1,393 · **Fork**: 275 · **开放 issue**: 1,446 · **贡献者**: 118
+- **Star**: 1,394 · **Fork**: 275 · **开放 issue**: 1,446 · **贡献者**: 118
 
 ## 累计统计
 
-- **发布数**: 456 · **已合并 PR**: 2697 · **开放 PR**: 242 · **已关闭 issue**: 1178 · **开放 issue**: 268 · **提交数**: 3973
+- **发布数**: 456 · **已合并 PR**: 2697 · **开放 PR**: 257 · **已关闭 issue**: 1181 · **开放 issue**: 265 · **提交数**: 3973
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 15 | 83 | 56 | 2 | 17 | 112 |
-| last60d | 2026-09-25 | 26 | 246 | 76 | 15 | 28 | 330 |
-| 90d | 2026-08-26 | 43 | 355 | 98 | 24 | 38 | 471 |
-| last180d | 2026-05-28 | 66 | 635 | 176 | 55 | 53 | 809 |
-| 360d | 2025-11-29 | 99 | 937 | 231 | 97 | 93 | 1182 |
-| last720d | 2024-12-04 | 100 | 1194 | 236 | 192 | 212 | 1637 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/eas-cli) 上共有 **5** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**4** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Homebrew | `27.11.0` | ✅ latest |
-| Nix unstable | `27.2.0` | ⚠️ outdated |
+| 30d | 2026-10-26 | 15 | 74 | 69 | 2 | 17 | 112 |
+| last60d | 2026-09-26 | 26 | 246 | 90 | 16 | 27 | 330 |
+| 90d | 2026-08-27 | 42 | 347 | 113 | 25 | 37 | 471 |
+| last180d | 2026-05-29 | 66 | 628 | 190 | 56 | 51 | 809 |
+| 360d | 2025-11-30 | 99 | 936 | 246 | 100 | 90 | 1182 |
+| last720d | 2024-12-05 | 100 | 1193 | 251 | 193 | 209 | 1636 |
 
 ## 改进这些数据
 
@@ -82,4 +73,4 @@ eas-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:04:13Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:37:21Z._

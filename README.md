@@ -26,13 +26,13 @@ Total: **448,007** lines of code across **2257** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6 / 10**
+Overall score: **5.9 / 10**
 
 Lowest-scoring checks:
 
 - **Security-Policy** (3/10) — security policy file detected
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -47,31 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,393 · **Forks**: 275 · **Open issues**: 1,446 · **Contributors**: 118
+- **Stars**: 1,394 · **Forks**: 275 · **Open issues**: 1,446 · **Contributors**: 118
 
 ## Totals (cumulative)
 
-- **Releases**: 456 · **Merged PRs**: 2697 · **Open PRs**: 242 · **Closed issues**: 1178 · **Open issues**: 268 · **Commits**: 3973
+- **Releases**: 456 · **Merged PRs**: 2697 · **Open PRs**: 257 · **Closed issues**: 1181 · **Open issues**: 265 · **Commits**: 3973
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 15 | 83 | 56 | 2 | 17 | 112 |
-| last60d | 2026-09-25 | 26 | 246 | 76 | 15 | 28 | 330 |
-| 90d | 2026-08-26 | 43 | 355 | 98 | 24 | 38 | 471 |
-| last180d | 2026-05-28 | 66 | 635 | 176 | 55 | 53 | 809 |
-| 360d | 2025-11-29 | 99 | 937 | 231 | 97 | 93 | 1182 |
-| last720d | 2024-12-04 | 100 | 1194 | 236 | 192 | 212 | 1637 |
-
-## Distribution status
-
-Reported by **5** distros on [repology.org](https://repology.org/project/eas-cli). **1** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `27.11.0` | ✅ latest |
-| Nix unstable | `27.2.0` | ⚠️ outdated |
+| 30d | 2026-10-26 | 15 | 74 | 69 | 2 | 17 | 112 |
+| last60d | 2026-09-26 | 26 | 246 | 90 | 16 | 27 | 330 |
+| 90d | 2026-08-27 | 42 | 347 | 113 | 25 | 37 | 471 |
+| last180d | 2026-05-29 | 66 | 628 | 190 | 56 | 51 | 809 |
+| 360d | 2025-11-30 | 99 | 936 | 246 | 100 | 90 | 1182 |
+| last720d | 2024-12-05 | 100 | 1193 | 251 | 193 | 209 | 1636 |
 
 ## Improve this data
 
@@ -82,4 +73,4 @@ Install metadata for eas-cli lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:04:12Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:37:20Z._
